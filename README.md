@@ -2,15 +2,17 @@
 
 Este proyecto proporciona un script de Python diseñado para ayudar a negocios y contadores a monitorear y notificar cambios en las tasas de IVA para diferentes países. Utiliza la API de Vatstack para obtener las tasas actuales de IVA y compara estos datos con registros previos para detectar cambios. En caso de detectarse cambios, el script envía una notificación por correo electrónico. 📧
 
-## Instalación 🛠️
+## Pre-requisitos 📋
+Antes de utilizar este script, necesitas registrarte en [Vatstack](https://vatstack.com) para obtener tu API Key. Esta clave te permitirá realizar peticiones a la API para obtener las tasas de IVA actuales.
 
+## Instalación 🛠️
 Para usar este script, necesitarás Python 3.6 o superior. Primero, clona este repositorio en tu máquina local:
 
-git clone https://github.com/<tu_usuario>/IVA-Rate-Notifier.git
-cd IVA-Rate-Notifier
+## git clone https://github.com/<tu_usuario>/IVA-Rate-Notifier.git
+## cd IVA-Rate-Notifier
 
 Instala las dependencias necesarias:
-pip install -r requirements.txt
+## pip install -r requirements.txt
 
 ## Configuración ⚙️
 Antes de ejecutar el script, necesitarás configurar algunas variables:
@@ -20,7 +22,7 @@ Asegúrate de tener un archivo tasas_iva.json en el formato correcto (puedes enc
 
 ## Uso 🚀
 Para ejecutar el script, simplemente corre:
-python main.py
+## python main.py
 
 ## Contribuir 🤝
 Las contribuciones son bienvenidas. Si tienes sugerencias para mejorar este proyecto, no dudes en crear un pull request o abrir un issue.
