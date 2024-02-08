@@ -9,7 +9,7 @@ Antes de utilizar este script, necesitas registrarte en [Vatstack](https://vatst
 Para usar este script, necesitarás Python 3.6 o superior. Primero, clona este repositorio en tu máquina local:
 
 ## git clone https://github.com/<tu_usuario>/IVA-Rate-Notifier.git
-## cd IVA-Rate-Notifier
+# cd IVA-Rate-Notifier
 
 Instala las dependencias necesarias:
 ## pip install -r requirements.txt
