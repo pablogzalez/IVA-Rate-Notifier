@@ -1,0 +1,8 @@
+{
+  "API_KEY": "tu_api_key_aquí",
+  "SMTP_SERVER": "smtp.gmail.com",
+  "SMTP_PORT": 587,
+  "SMTP_USERNAME": "tu_correo@gmail.com",
+  "SMTP_PASSWORD": "tu_contraseña",
+  "CORREO_DESTINATARIO": "correo_destinatario@gmail.com"
+}
